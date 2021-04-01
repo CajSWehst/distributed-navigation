@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: sans-serif;
   line-height: 1.5;
+  font-size: 1.125rem;
 }
 
 *, *::before, *::after {
@@ -27,21 +28,30 @@ header {
 }
 
 header h1 {
-
+  margin: auto;
 }
 
 header img {
-
+  display: flex;
 }
 
 header p {
-
+  display: flex;
+  align-items: center;
 }
 
 nav ul {
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 nav a {
+  text-decoration: none;
+  color: #0074d9;
+  padding: .75em 1em 6em;
+}
 
+nav a:hover {
+  color: #fff;
 }
